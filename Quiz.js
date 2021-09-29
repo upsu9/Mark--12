@@ -5,7 +5,16 @@ var outputBox = document.querySelector(".outputBox")
 inputBtn.addEventListener("click", clickHandler)
 
 
-const rightAnswer = ["90", "45", "180"]
+const rightAnswer = ["3",
+"scalene",
+"3",
+"isosceles",
+"equilateral",
+"Equilateral triangle",
+"Pythagoras",
+"Polygon",
+"2",
+"false"];
 
 function clickHandler() {
 
