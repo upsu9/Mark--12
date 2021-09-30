@@ -27,5 +27,5 @@ function calculate(anOne, anTwo, anThree) {
         } else {
             outputBox.innerText = "Sadly ! Entered Angles doesn't make any Triangle."
         }
-    } else errorBox.innerText = "All angles should be greater than zero"
+    } else errorBox.innerText = "All input angles should be greater than zero"
 }

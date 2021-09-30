@@ -21,11 +21,15 @@ finalResult(inputA,inputB)
 
 function finalResult (inputOne, inputTwo)
 {
-   
+    if(inputOne <0 || inputTwo<0){
+        outputBox.innerText = `Please put valid numbers.` 
+    }
+   else{
     var a = inputOne * inputTwo;
   
 const result = ( 0.5 * a);
 const resultFinal = result.toFixed(2)
 
 outputBox.innerText = `The Area of triangle is ${resultFinal}.`
+   }
 }
