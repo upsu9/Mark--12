@@ -1,6 +1,6 @@
-var inputBtn = document.querySelector("#inputBtn")
-var form = document.querySelector(".form")
-var outputBox = document.querySelector(".outputBox")
+const inputBtn = document.querySelector("#inputBtn")
+const form = document.querySelector(".form")
+const outputBox = document.querySelector(".outputBox")
 
 form.addEventListener("submit", clickHandler)
 
@@ -18,12 +18,11 @@ const rightAnswer = ["3",
 ];
 
 function clickHandler(event) {
-
     event.preventDefault();
     let score = 0;
     let i = 0;
     const results = new FormData(form);
-    for (var value of results.values()) {
+    for (let value of results.values()) {
         if (value === rightAnswer[i]) {
             score = score + 1;
         }
